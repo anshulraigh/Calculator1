@@ -26,6 +26,8 @@ public class Calculator {
                 if (num2 != 0) result = num1 / num2;
                 else valid = false;
                 break;
+	    default:
+                valid = false;
         }
 
         if (valid) System.out.println("Result: " + result);
